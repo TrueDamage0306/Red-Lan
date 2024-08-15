@@ -1,0 +1,31 @@
+body {
+    background-color: #12222d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contenedor {
+    margin: auto;
+    height: auto;
+    width: 90%;
+}
+
+.anexosimg {
+    padding: 15px;
+    display: flex;
+}
+
+.anexosimg img {
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.anexosimg img:hover {
+    transform: scale(1.1);
+}
+
+video{
+    width: 100%;
+}
+
+
+

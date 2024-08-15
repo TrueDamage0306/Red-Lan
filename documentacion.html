@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto De Red LAN</title>
+    <link rel="icon" href="imagenes/Icons/9940791.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/Estilo.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+</head>
+
+<body>
+    <div id="contenedor">
+        <nav class="navbar bg-body-tertiary" style="background-color: #124250;">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="index.html"><img class="m-2" src="imagenes/Icons/Red Lan 3.png"
+                        width="55px">PROYECTO RED LAN</a>
+                <button class="navbar-toggler" style="background-color: #20dad8;" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" style="background-color:#1aa6b4 ;" tabindex="-1"
+                    id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body ">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html"><img
+                                        src="imagenes/Icons/Inicio.png" width="10%"> Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="documentacion.html"><img src="imagenes/Icons/documentos.png"
+                                        width="10%">Documentacion</a>
+                            </li>
+                            <li class="nav-item">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="galeria.html" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false"><img
+                                        src="imagenes/Icons/presentacion.png" width="10%">
+                                    Galeria
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="fotos.html">Fotos</a></li>
+                                    <li><a class="dropdown-item" href="videos.html">Videos</a></li>
+                            </li>
+                            </li>
+                        </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="triunfadores.html"><img src="imagenes/Icons/ocurrencia.png"
+                                    width="10%">Triunfadores</a>
+                        </li>
+                        </ul>
+        </nav>
+
+
+        <a href="Documentos/Proyecto Agosto24.docx" class="btn m-2" style="background-color:#20dad8;" download>
+            Descargar Proyecto PDF
+        </a>
+        <a href="Planos/Planos.rar" class="btn m-2" style="background-color:#20dad8;" download>
+            Descargar Planos de la RED
+        </a>
+
+
+        &nbsp;
+
+        <div class="row m-2 text-white" style="background-color: #1aa6b4;">
+            <div class="col-lg-12 p-2">
+                <h2 class=" text-center"><b>I. DEFINICIÓN DEL PROYECTO</b> </h2>
+
+                <h3 class="m-5"><b>Diagnóstico situacional de la problemática</b> </h3>
+
+                <ul class="p-5" style="text-align: justify;">
+                    <p>
+                        Una vez obtenido los datos de los involucrados y haber previamente consultado con los
+                        profesores que se
+                        encargan
+                        de impartir clases en el área de informática y desde nuestra experiencia como estudiantes en
+                        los
+                        computadores
+                        se
+                        pudo observar que el salón de clases no cuenta con la estructura de una red que defina la
+                        forma en que los
+                        equipos accedan a los medios para enviar o recibir datos.
+                    </p>
+                    <p>
+                        Del mismo modo carece de una red LAN para los computadores, los equipos del salón de
+                        informática no cuentan
+                        con
+                        acceso a internet, es bien sabido que hoy en día el buen uso de las tecnologías en el mundo
+                        es algo en lo
+                        que
+                        tenemos que estar bien instruidos, ya que en la vida diaria nos encontraremos en situaciones
+                        donde es
+                        necesario
+                        hacer uso de ellas, Debido al creciente auge tecnológico, en el cual muchas de las acciones
+                        cotidianas son
+                        llevadas a cabo a través de las mismas tecnologías. Es crucial abordar esta situación para
+                        garantizar un
+                        entorno
+                        educativo más eficaz y accesible para todos los implicados.
+                    </p>
+                </ul>
+                <h3 class="m-5"><b>Situación Problemática </b> </h3>
+
+                <ul>
+                    <p>
+                        Al conocer nuestra situación sobre la carencia de una red LAN los involucrados en este
+                        proceso manifestaron
+                        la
+                        preocupación de corregirlo, indicando la necesidad que se implemente el cableado
+                        estructurado en el
+                        laboratorio de informática de modo que facilite la manera en que se imparten clases y la
+                        forma en que se
+                        entregue la información al alumnado.
+                    </p>
+                    <p>
+                        Del mismo modo, los involucrados tuvimos un intercambio de ideas para dar con una solución
+                        que sea la más
+                        adecuada dentro del mismo ámbito. Llegamos a la decisión de dar uso a los implementos y
+                        cables que allí
+                        mismo
+                        se encontraban guardados, lo cual en términos de vialidad se vuelve mucho menos costoso a la
+                        hora de la
+                        instalación de una red LAN.
+                    </p>
+                    <p>
+                        Esta solución nos permitió aprovechar los recursos disponibles y evitar gastos innecesarios
+                        en la
+                        adquisición
+                        de nuevos implementos. Además, al utilizar los cables y equipos que ya teníamos, pudimos
+                        agilizar el proceso
+                        de instalación y poner la red en funcionamiento en el salón de informática de manera más
+                        rápida.
+                    </p>
+                </ul>
+
+                <h3 class="m-5"><b>Objetivos del proyecto </b></h3>
+
+                <h4 class="m-5">Objetivo General </h4>
+
+                <ul>
+                    <p>
+                        Realizar el diseño e implementación de una red LAN en la sala de informática y telemática de
+                        la Aldea
+                        Universitaria Comunal “Samán de Güere”.
+                    </p>
+                </ul>
+                <h4 class="m-5">Objetivos Especificos </h4>
+
+                <ul>
+                    <p>
+                        Identificar la problemática actual de la red LAN en la sala de informática y telemática.
+                    </p>
+                    <p>
+                        Determinar la propuesta de la instalación de una red LAN en el laboratorio de informática.
+                    </p>
+                    <p>
+                        Diseñar los planos de la red LAN por el laboratorio de informática.
+                    </p>
+                    <p>
+                        Ejecutar la instalación de la red LAN.
+                    </p>
+                    <p>
+                        Evaluar los resultados y verificar que las conexiones estén.
+                    </p>
+                </ul>
+
+                <h3 class="m-5"><b>Justificación</b></h3>
+
+                <ul>
+                    <p>
+                        El presente proyecto tecnológico se realizará debido al interés del entorno únicamente
+                        interno, que busca
+                        dar
+                        solución al problema planteado, al ser este una red LAN diseñada en una entidad
+                        universitaria, de acuerdo a
+                        la
+                        implementación de una red LAN en la sala de informática o telemática la misma tiene una
+                        relevancia
+                        significativa en el ámbito universitario; ya que mejora el proceso enseñanza-aprendizaje,
+                        una red LAN
+                        permitirá una comunicación más eficiente entre docentes y estudiantes, asimismo facilitará
+                        la entrega de
+                        materiales educativos, como presentaciones, documentos y recursos en línea, optimiza los
+                        recursos, al
+                        utilizar
+                        los implementos y cables existentes, se evita la necesidad de adquirir nuevos equipos, esto
+                        reduce los
+                        costos
+                        y aprovecha los recursos disponibles en la universidad, la decisión de utilizar los cables y
+                        equipos ya
+                        disponibles acelera el proceso de implementación, la red estará operativa más rápidamente,
+                        para beneficio de
+                        la comunidad universitaria. Esta red LAN bien diseñada sentará las bases para futuras
+                        expansiones
+                        tecnológicas, facilitando la integración de sistemas, acceso a internet y aplicaciones
+                        educativas, su
+                        implementación contribuirá al desarrollo académico y al acceso eficiente a la información en
+                        el aula de
+                        informática.
+                    </p>
+                </ul>
+
+                <h3 class="m-5"><b>Análisis de la Red Actual </b></h3>
+
+                <ul>
+                    <p>
+                        En la actualidad para el momento de este proyecto, existía una sala de informática con una
+                        estructura en
+                        condiciones regulares, cuenta con un mobiliario de mesas sillas, mesas de escritorio, mesas
+                        grandes
+                        multiusos, de igual forma se cuenta con 12 computadoras, de las cuales solo 3 con accesorios
+                        completos,
+                        entrada a internet solo el cable, así como un switch (24 puertos) sin conexión a red de
+                        ningún tipo, de
+                        igual forma un gabinete de pared rack sin instalar, no existe una red LAN, las computadoras
+                        no estaban
+                        instaladas a ningún enlace de internet, aun cuando existía la conexión.
+                    </p>
+                </ul>
+
+                <h3 class="m-5"><b>Necesidades </b></h3>
+
+                <ul>
+                    <p>
+                        De acuerdo al diagnóstico, se pudo evidenciar que en base a las necesidades existente se
+                        requería de una red
+                        LAN establecida, la cual permita hacer el uso compartido de archivos y la conexión apropiada
+                        de internet para
+                        cada computador existente en la sala de informática.
+                    </p>
+                </ul>
+                <h3 class="m-5"><b>Planos de infraestructura de la red, antes del proyecto </b> </h3>
+                <ul>
+                    <img src="Planos/Plano 2d de la sala informatica lista.png" width="50%" style="display: flex;">
+                    <p><b>Figura N° 2. Plano de la Infraestructura </b></p>
+                </ul>
+
+                <h3 class="m-5"><b>Factibilidad del Proyecto </b> </h3>
+
+                <h4 class=" m-5">Factibilidad Técnica:</h4>
+
+                <ul style="text-align: left; margin: 4%;">
+                    <p>
+                        <li> La infraestructura existente, como las mesas, sillas y computadoras, proporciona una
+                            base sólida.</li>
+                        <li> El switch de 24 puertos puede utilizarse para conectar las computadoras.</li>
+                        <li> El gabinete de pared rack puede alojar los componentes de la red.</li>
+                        <li> La instalación de canaletas PVC, para la distribución de cables.</li>
+                    </p>
+                </ul>
+
+                <h4 class=" m-5">Factibilidad Operativa:</h4>
+
+                <ul style="text-align: left; margin: 4%;">
+                    <p>
+                        <li> La instalación de la red no requeriría grandes modificaciones estructurales.</li>
+                        <li> Se dispondría de la inversión para la adquisición de cajetines, conectores coupler,
+                            conectores RJ-45,
+                            tapas taco para los cajetines, así como de las canaletas necesarias para su instalación.
+                        </li>
+                        <li> La inversión principal sería en el cableado estructurado y posiblemente en adaptadores
+                            para las
+                            computadoras sin accesorios completos.</li>
+                    </p>
+                </ul>
+
+                <h4 class=" m-5">Factibilidad de Costos:</h4>
+
+                <ul style="text-align: left; margin: 4%;">
+                    <p>
+                        <li> Al aprovechar los recursos existentes, se reducen los gastos.</li>
+                        <li> El uso de cables y equipos disponibles minimiza el tiempo de implementación.</li>
+                        <li> El uso de las herramientas necesarias para la instalación de la red LAN.</li>
+                    </p>
+                </ul>
+                <h3 class=" m-5"><b>Especificación de requerimientos (entrada, proceso, salida) </b> </h3>
+
+                <ul>
+                    <p>
+                        El análisis de redes se enfoca en los requerimientos de los usuarios, de sus aplicaciones y
+                        dispositivos,
+                        también se enfoca en entender el comportamiento de la red bajo diferentes escenarios. El
+                        análisis de redes
+                        también define, determina y describe las relaciones existen entre el conjunto de usuarios de
+                        la red, las
+                        aplicaciones y dispositivos de red. Durante el proceso de análisis encontraremos el camino
+                        para tomar las
+                        correctas decisiones cuando nos encontremos en las etapas de arquitectura, diseño e
+                        implementación de la red.
+                    </p>
+                    <p>
+                        El proceso del análisis de redes tiene dos propósitos en primer lugar escuchar a los
+                        usuarios y entender sus
+                        necesidades, y segundo entender el sistema.
+                    </p>
+                    <p>
+                        En el análisis de redes examinamos también el estado de la red existente, incluyendo los
+                        problemas que podría
+                        tener, creamos una descripción de las tareas de que deberán atenderse, desarrollamos los
+                        requerimientos y
+                        flujos de tráfico, así como también el mapeo de usuarios, aplicaciones y dispositivos, de
+                        esta manera
+                        recopilamos información para las etapas de arquitectura y diseño.
+                    </p>
+                </ul>
+                <h3 class=" m-5"><b>Análisis de Requerimiento </b> </h3>
+
+                <ul>
+                    <p>
+                        En esta fase el analista de red entrevista a los usuarios y personal tenido para obtener un
+                        mayor
+                        entendimiento de los objetivos técnicos y de negocio para el nuevo sistema o actualización,
+                        la tarea de
+                        representar la red existente, incluyendo la topología física y lógica como también el
+                        rendimiento de la red,
+                        los últimos pasos de esta fase es analizar el tráfico de red actual y futuro, como también
+                        los comportamientos
+                        de protocolo y la calidad de servicio requerido (SLA).
+                    </p>
+                    <img src="Planos/Diseño estructurado del laboratorio.PNG" width="50%">
+                    <p><b>
+                            Figura N° 3. Diseño estructura del aula de informática.</b>
+                    </p>
+                </ul>
+                <h3 class="m-5"><b>Desarrollo de un diseño lógico</b> </h3>
+
+                <ul>
+                    <p>
+                        En esta se representa la topología de red de la nueva red o actualización, direccionamiento
+                        de capas de red,
+                        protocolos de nombre, intercambio y enrutado, el diseño lógico también incluye el
+                        planeamiento de seguridad,
+                        la administración de la red y la investigación inicial para que los proveedores de servicio
+                        puedan cumplir con
+                        el acceso remoto y a la WAN.
+                    </p>
+                    <img src="Planos/Diseño Logico.PNG" width="50%">
+                    <p><b>
+                            Figura N° 4.Diseño lógico </b>
+                    </p>
+                </ul>
+                <h3 class="m-5"><b>Desarrollo de un diseño físico</b> </h3>
+
+                <ul>
+                    <p>
+                        Durante la fase del diseño físico se especifica las tecnologías y productos para llevar a
+                        cabo los diseños
+                        lógicos seleccionados. En esta fase también debe completada las investigaciones de
+                        proveedores de servicio que
+                        se inició en la fase anterior.
+                    </p>
+                    <img src="Planos/Diseño Fisico 3.PNG" width="50%">
+                    <p><b>
+                            Figura N° 5.diseño físico </b>
+                    </p>
+                </ul>
+                <h3 class="m-5"><b>Diseño metodológico de la investigación</b> </h3>
+
+                <ul>
+                    <p>
+                        Dentro de esta investigación se determina el esquema sistémico del proyecto, donde quedan
+                        representadas las
+                        etapas y cómo van a ser tratadas dentro del estudio, por lo general se representa en un
+                        esquema detallado,
+                        donde la categorización condensa las relaciones de las fases, y como van a ser medidas a
+                        través de los
+                        procesos detallados dentro de la investigación.
+                    </p>
+                    <p>
+                        En este mismo orden de ideas, se presenta el enfoques sobre la definición del diseño de la
+                        investigación, ya
+                        que está determinado por el tipo de investigación que se va a realizar y la posibilidades
+                        que se van a
+                        desarrollar durante el proyecto, no nos referimos a la naturaleza de la investigación, sino
+                        al propósito del
+                        mismo, que desde luego de acuerdo a su naturaleza se determina de acuerdo al método a
+                        utilizar.
+                    </p>
+                </ul>
+                <h4 class="m-5"><b>Metodología IAP</b> </h4>
+
+                <ul>
+                    <p>
+                        La Investigación Acción Participativa (IAP), hace referencia a un conjunto de corrientes y
+                        aproximaciones
+                        propias de la investigación que tienen en común tres pilares: la investigación: Denota la
+                        creencia en el valor
+                        y el poder del conocimiento y el respeto hacia sus distintas expresiones y maneras de
+                        producirlo; la acción:
+                        que se representa como la búsqueda de un cambio que mejore una situación dentro de un
+                        contexto o una comunidad
+                        involucrada; La participación: Enfatiza los valores democráticos y el derecho a que los
+                        ciudadanos en común
+                        controlen sus propias situaciones, destacando la importancia de una relación horizontal
+                        entre los
+                        investigadores y los miembros de una comunidad.
+                    </p>
+                    <p>
+                        Asimismo, la Investigación Acción Participativa no es más que una realidad ampliada del
+                        contexto actual de
+                        todos los que intervienen de forma directa, indirecta y social de la comunidad tanto
+                        educativa cómo colectiva
+                        dentro de la investigación, que incluye diferentes maneras de hacer investigación para el
+                        cambio social con la
+                        participación de la gente y que ha tenido diversos desarrollos en el ámbito local.
+                    </p>
+                </ul>
+                <h4 class="m-5"><b>Objetivos de aprendizaje </b> </h4>
+
+                <ul>
+                    <p>
+                        La IAP tiene como objetivo principal hacer el proceso de investigación más democrático y
+                        colaborativo, el
+                        marco de la IAP provee una manera de reflexionar críticamente sobre los problemas de
+                        inequidad social,
+                        tratando de ir más allá de las divisiones que existen a menudo entre las universidades y las
+                        comunidades
+                        circundantes, ya que genera un conocimiento liberador a partir del propio conocimiento
+                        popular, que va más
+                        claramente, creciendo y estructurándose mediante que avanza el proceso de investigación,
+                        llevado por la propia
+                        comunidad y sus investigadores donde simplemente facilitan aportando herramientas
+                        metodológicas.
+                    </p>
+                    <p>
+                        Como consecuencia de ese conocimiento, dar lugar a un proceso de empoderamiento o incremento
+                        de las
+                        comunidades existentes o circundantes y al inicio o consolidación de la estrategia de acción
+                        este genera un
+                        cambio, que al conectar todo este proceso de conocimiento, empoderamiento y acción a nivel
+                        local permite la
+                        ampliación del proceso y la transformación de la realidad social.
+                    </p>
+                </ul>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item">
+                            <a class="page-link" href="documentacionpag2.html">Siguiente</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+
+
+        <div class="card m-3 text-white" style="background-color: #124250;">
+            <div class="card-header text-center">
+                Proyecto de Impacto Tecnologico
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-3 text-center">
+                        <img src="imagenes/Fotos Proyecto/Mision-Sucre.jpg" width="40%"
+                            style="border-radius: 100%; padding-top: 20%;">
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img src="imagenes/Icons/Red Lan 2.png" width="40%" style="padding: 15px;">
+                        <p>Derwing Acevedo</p>
+                        <img class="p1" src="imagenes/Icons/gmail.png" width="35px"> <img class="p-1"
+                            src="imagenes/Icons/whatsapp.png" width="40px"><img class="p-1"
+                            src="imagenes/Icons/github.png" width="40px">
+                        <p>Luis Hidalgo</p>
+                        <img class="p1" src="imagenes/Icons/gmail.png" width="35px"> <img class="p-1"
+                            src="imagenes/Icons/whatsapp.png" width="40px"><img class="p-1"
+                            src="imagenes/Icons/github.png" width="40px">
+                    </div>
+                    <div class="col-lg-3 text-center    ">
+                        <img src="imagenes/Logo UPT.png" width="35%" style="border-radius: 15px; padding-top: 20%;">
+                    </div>
+                    <div class="text-center card-footer text-body-secondary">
+                        ALDEA UNIVERSITARIA COMUNAL SAMÁN DE GüERE
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-2.2.0.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('.flexslider').flexslider();
+        });
+    </script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
