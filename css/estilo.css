@@ -1,8 +1,8 @@
-ody {
+body {
     background-color: #12222d;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-contenedor {
+#contenedor {
     margin: auto;
     height: auto;
     width: 90%;
